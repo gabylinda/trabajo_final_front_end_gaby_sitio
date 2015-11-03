@@ -1,0 +1,20 @@
+{
+  "name": "g",
+  "description": "sitio 4 pag",
+  "main": "sitio_gaby",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "jquery-form-validator": "~2.2.81"
+  }
+}
