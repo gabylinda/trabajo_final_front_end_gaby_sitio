@@ -57,7 +57,7 @@ a:focus {
 
 
 /* ===========================
---- General seccciones
+--- General secciones
 ============================ */
 
 .home-section {
@@ -77,26 +77,6 @@ a:focus {
 }
 
 
-/* --- section bg var --- */
-
-.bg-white {
-	background: #fff;
-}
-
-.bg-gray {
-	background: #f8f8f8;
-}
-
-
-.bg-dark {
-	background: #575757;
-}
-
-/* --- section color var --- */
-
-.text-light {
-	color: #fff;
-}
 
 /* ============================
 --- Menu
@@ -178,7 +158,7 @@ font-size: 16px;
 }
 
 #intro{	
-	background-image: url(../img/img-bg.jpg);
+
 	background-size: cover;
 }
 
@@ -209,29 +189,6 @@ font-size: 16px;
 }
 
 
-/* slider */
-
-.tp-caption.custom_large_white {
-	color: #FFF;
-	text-shadow: none;
-	font-size: 60px;
-	line-height: 60px;
-	font-weight: 700;
-	font-family: Montserrat, sans-serif;
-	background-color: rgba(0, 0, 0, 0);
-	text-decoration: none;
-	text-transform: uppercase;
-	border-width: 0px;
-	border-color: #000;
-	border-style: none;
-}
-
-.tp-caption a.btn {
-	color: #fff;
-}
-
-
-
 /* ===========================
 --- Quienes somos
 ============================ */
@@ -249,9 +206,6 @@ font-size: 16px;
 	margin-bottom: 10px;
 }
 
-.avatar {
-	margin-bottom: 20px;
-}
 
 .team-social {
 	margin-left: 0;
@@ -302,6 +256,7 @@ font-size: 16px;
   position: relative;
   text-align: center;
    margin-left: 50px;
+   padding-right:10px;
 }
 #slider .block .owl-carousel img {
   padding-right: 5px;
@@ -398,8 +353,6 @@ form#contact-form input:focus,form#contact-form select:focus,form#contact-form t
 
 
 
-
-
 /* ===========================
 --- Footer
 ============================ */
@@ -408,14 +361,15 @@ footer a {
 	color:#a1a9b0;
 }
 footer {
-	background-color:#f3f5f8;
+	background-color:#eee;
 	padding:40px;
-}
+	position: absolute;
+	width: 100%;
 footer p {
 	color: #808080;
 }
 /* ===========================
---- Elements
+--- Elementos
 ============================ */
 
 .btn {
@@ -427,137 +381,6 @@ footer p {
     -moz-transition: all .3s ease-in-out;
     transition: all .3s ease-in-out;
  }
-
-
-.btn-circle {
-    width: 70px;
-    height: 70px;
-    margin-top: 15px;
-    padding: 7px 16px;
-    border: 2px solid #fff;
-    border-radius: 50%;
-    font-size: 40px;
-    color: #fff;
-    background: 0 0;
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.btn-circle.btn-dark {
-    border: 2px solid #666;
-    color: #666;
-}
-
-
-.btn-circle:hover,
-.btn-circle:focus {
-    outline: 0;
-    color: #fff;
-    background: rgba(255,255,255,.1);
-}
-
-.btn-circle.btn-dark :hover,
-.btn-circle.btn-dark :focus {
-    outline: 0;
-    color: #999;
-    background: #fff;
-}
-
-.btn-circle.btn-dark :hover i,
-.btn-circle.btn-dark :focus i{
-    color: #999;
-}
-
-.page-scroll .btn-circle i.animated {
-    -webkit-transition-property: -webkit-transform;
-    -webkit-transition-duration: 1s;
-    -moz-transition-property: -moz-transform;
-    -moz-transition-duration: 1s;
-}
-
-.page-scroll .btn-circle:hover i.animated {
-    -webkit-animation-name: pulse;
-    -moz-animation-name: pulse;
-    -webkit-animation-duration: 1.5s;
-    -moz-animation-duration: 1.5s;
-    -webkit-animation-iteration-count: infinite;
-    -moz-animation-iteration-count: infinite;
-    -webkit-animation-timing-function: linear;
-    -moz-animation-timing-function: linear;
-}
-
-@-webkit-keyframes pulse {    
-    0 {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -webkit-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -webkit-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-@-moz-keyframes pulse {    
-    0 {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-
-    50% {
-        -moz-transform: scale(1.2);
-        transform: scale(1.2);
-    }
-
-    100% {
-        -moz-transform: scale(1);
-        transform: scale(1);
-    }
-}
-
-
-#text {
-    color: #fff;
-    background: #ffcc00;
-}
-
-#map {
-	height: 500px;
-}
-
-
-.btn-skin:hover,
-.btn-skin:focus,
-.btn-skin:active,
-.btn-skin.active {
-  color: #fff;
-  background-color: #666;
-  border-color: #666;
-}
-
-
-.btn-default:hover,
-.btn-default:focus {
-    border: 1px solid #28c3ab;
-    outline: 0;
-    color: #000;
-    background-color: #28c3ab;
-}
-
-.btn-huge {
-    padding: 25px;
-    font-size: 26px;
-}
-
-.banner-social-buttons {
-    margin-top: 0;
-}
 
 
 /* Media queries */
